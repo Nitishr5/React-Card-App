@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  background-color: whitesmoke;
+  color: aliceblue;
+  min-height: 100vh;
+}
+
+.header{
+  background-color: yellow;
+}
+
+.footer{
+  background-color: blue;
+}
+
+h1{
+  margin: 0;
+}
+
+.header{
+  background-color: rgb(23, 32, 135);
+  padding:8px;
+  
+}
+.main{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 14px;
+
+}
+.movie{
+  color: black;
+  background-color: rgb(219, 212, 212);
+  border: 1px solid gray ;
+  padding: 3px ;
+  font-weight: bold;
+  text-align: start;
+  width: 22%;
+  margin-top: 15px;
+  border-radius: 5px;
+
+}
+.movie img{
+      height: 220px;
+      width: 100%;
+}
+
+.movie:hover{
+  cursor: pointer;
+  transform: scale(1.10);
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+  transition: 0.2s;
+  border-radius: 10px;
+}
